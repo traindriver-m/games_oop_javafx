@@ -33,10 +33,4 @@ public class LogicTest {
         logic.move(Cell.C8, Cell.A6);
     }
 
-    @Test
-    public void movie() throws OccupiedCellException, FigureNotFoundException, ImpossibleMoveException {
-        Logic logic = new Logic();
-        logic.add(new BishopBlack(Cell.C8));
-        logic.move(Cell.C8, Cell.B7);
-    }
 }
